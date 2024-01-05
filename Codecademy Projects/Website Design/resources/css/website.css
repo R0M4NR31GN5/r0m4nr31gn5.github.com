@@ -1,0 +1,20 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header,h1,h5 {
+    text-align: center;
+    border: 1px solid black;
+    position: relative;
+    background-color:bisque
+}
+
+.align {
+    display: block;
+}
