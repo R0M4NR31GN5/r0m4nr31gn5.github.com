@@ -1,20 +1,66 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
+* {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    background-color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.header,h1,h5 {
+header {
+    font-size: 35px;
     text-align: center;
-    border: 1px solid black;
-    position: relative;
-    background-color:bisque
+    margin: 25px;
 }
 
-.align {
-    display: block;
+section {
+    border: 1px solid gray;
+    margin: 5% 5%;
+    line-height: 3;
 }
+
+h3 {
+    padding: 10px 20px;
+}
+
+/* color table styles */
+
+.colors {
+    display: inline-block;
+    text-align: center;
+    width: 45%;
+    padding: 0px 20px 20px 20px;
+}
+
+.blue {
+    background-color: #00f;
+    padding: 25px;
+    line-height: 7%;
+}
+
+.green {
+    background-color: #008000;
+    padding: 25px;
+    line-height: 7%;
+}
+
+.pink {
+    background-color: #FFC0CB;
+    padding: 25px;
+    line-height: 7%;
+}
+
+.red {
+    background-color: #FF0000;
+    padding: 25px;
+    line-height: 7%;
+}
+
+/* font table styles */
+
+.fonts {
+    display: inline-block;
+    text-align: center;
+    width: 45%;
+    padding: 0px 20px 20px 20px;
+}
+
