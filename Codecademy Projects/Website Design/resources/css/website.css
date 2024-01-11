@@ -18,8 +18,16 @@ section {
     line-height: 3;
 }
 
-h3 {
+.subheading {
     padding: 10px 20px;
+}
+
+h1.noto {
+    font-size: 27px;
+}
+
+h2.roboto {
+    font-size: 18px;
 }
 
 h4 {
@@ -67,12 +75,12 @@ h4 {
     padding: 0px 20px 20px 20px;
 }
 
-.arial {
-    font-family: Arial, Helvetica, sans-serif;
+.roboto {
+    font-family: 'Roboto';
 }
 
-.verdana {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.noto {
+    font-family: 'Noto Serif';
 }
 
 .bold {
