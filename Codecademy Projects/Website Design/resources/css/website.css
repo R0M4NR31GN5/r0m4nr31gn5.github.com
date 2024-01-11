@@ -74,3 +74,11 @@ h4 {
 .verdana {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
