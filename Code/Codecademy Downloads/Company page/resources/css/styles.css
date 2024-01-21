@@ -1,0 +1,102 @@
+body {
+    background-color: rgb(15, 15, 15)
+}
+
+/* Navigation Bar */
+
+.nav-bar {
+    display: flex;
+    height: 7rem;
+    width: 100%;
+    background-color: rgb(10, 10, 10);
+    z-index: 10;
+    align-items: center;
+    position: fixed;
+}
+
+#logo {
+    display: flex;
+    max-height: 95%;
+    background-color: seashell;
+    margin-left: 2rem;
+    border-radius: 100%;
+    flex-shrink: 1;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 1;
+}
+
+.nav-list li {
+    display: inline-flex;
+    font-family: 'DM Serif Display', serif;
+    font-size: 2.5rem;
+    padding: 3rem;
+    color: seashell;
+}
+
+/* Main Page Opening/Description */
+
+main {
+    position: relative;
+    top: 7rem;
+}
+
+.main-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50rem;
+    background-size: cover;
+    background-image: url(../images/coffee_shop_background.jpg);
+    
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50rem;
+    height: 20rem;
+    background-color: seashell;
+    border: 0.25rem solid black;
+    border-radius: 1rem;
+}
+
+#title {
+    font-size: 7rem;
+    font-family: 'Courgette', cursive;
+}
+
+#browse {
+    font-size: 2rem;
+    font-family: 'Zeyada', cursive;
+    color: gray;
+    margin-top: 5rem;
+}
+
+#browse:hover {
+    color: red;
+    font-size: 2.15rem;
+}
+
+#browser:active {
+    color: black;
+}
+
+/* Products */
+
+.product-page {
+    
+}

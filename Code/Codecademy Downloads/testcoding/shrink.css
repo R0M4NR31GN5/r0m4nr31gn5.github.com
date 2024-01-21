@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-flow: wrap column;
+}
+
+.itemA {
+    display: inline-flex;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 300px;
+    width: 100px;
+}
+
+.itemB {
+    display: inline-flex;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 600px;
+    width: 100px
+} 
