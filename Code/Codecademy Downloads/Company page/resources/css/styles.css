@@ -12,6 +12,7 @@ body {
     z-index: 10;
     align-items: center;
     position: fixed;
+    border-bottom: 
 }
 
 #logo {
@@ -88,15 +89,37 @@ main {
 
 #browse:hover {
     color: red;
-    font-size: 2.15rem;
+    font-size: 2rem;
 }
 
 #browser:active {
     color: black;
 }
 
+/* Description */
+
+.desc {
+    margin-top: 3.1rem;
+    height: 30rem;
+    background-color: seashell
+}
+
+.container {
+
+}
+
+.container .one {
+
+}
+
+.container .two {
+
+}
+
 /* Products */
 
 .product-page {
-    
+    margin-top: 4rem;
+    border: 0.125rem solid seashell;
+    height: 45rem;
 }
