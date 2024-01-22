@@ -8,7 +8,7 @@ body {
     display: flex;
     height: 7rem;
     width: 100%;
-    background-color: rgb(10, 10, 10);
+    background-color: rgb(15, 15, 15);
     z-index: 10;
     align-items: center;
     position: fixed;
@@ -21,7 +21,8 @@ body {
     background-color: seashell;
     margin-left: 2rem;
     border-radius: 100%;
-    flex-shrink: 1;
+    flex-grow: 1;
+    max-width: 6.65rem;
 }
 
 .nav {
@@ -126,7 +127,7 @@ main {
     height: 30rem;
     border: 0.05rem solid seashell;
     border-radius: 1rem;
-    
+    background-color: rgb(15,15,15);
 }
 
 .one p {
@@ -165,7 +166,34 @@ main {
 
 .product-page {
     margin-top: 4rem;
-    background-color: gray;
     height: 45rem;
 }
 
+.product-title p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-family: 'DM Serif Display', serif;
+    color: seashell;
+    background-color: rgb(10, 10, 10);
+    padding: 1.5rem;
+}
+
+.products {
+    height: 38rem;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.product-container {
+    width: 20rem;
+    height: 25rem;
+    border: 0.05rem solid seashell;
+    border-radius: 1rem;
+    background-color: rgb(15, 15, 15);
+}
+
+/* Review */
