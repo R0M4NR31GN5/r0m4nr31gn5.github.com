@@ -196,4 +196,39 @@ main {
     background-color: rgb(15, 15, 15);
 }
 
+.product-container img {
+    width: 90%;
+    margin: 5%;
+    height: 11rem
+}
+
+.product-container p {
+    font-size: 2rem;
+    font-family: 'Zeyada', cursive;
+    font-weight: 600;
+    color: seashell;
+    text-align: center;
+}
+
+.price {
+    font-size: 1.2rem !important;
+    font-family: 'DM Serif Display', serif !important;
+}
+
+.order-button {
+    display: flex;
+    justify-content: center;
+    background-color: seashell;
+    width: 40%;
+    margin: 2rem 30%;
+    border-radius: 5rem;
+}
+
+.order-button h4 {
+    font-size: 1.5rem;
+    font-family: 'Zeyada', cursive;
+    color: black;
+}
+
 /* Review */
+
