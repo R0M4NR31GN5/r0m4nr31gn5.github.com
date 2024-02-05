@@ -69,20 +69,33 @@ nav {
 /* Opener */
 
 .desc {
-    display: flex;
+    display: inline-flex;
     position: relative;
     top: 4rem;
+    width: 100%;
+    height: auto;
     background: var(--gray-background);
 }
 
 .desc-img {
     padding: 2rem 1.5rem;
-}
-
-.desc-img img {
     width: 60%;
 }
 
 .desc-block {
-    padding: 1rem
+    display: flexbox;
+    align-self: center;
+    justify-content: start;
+}
+
+.desc-block p, h2, h5 {
+    padding: 1.75rem;
+}
+
+.desc-block p {
+
+}
+
+.desc-block h2 {
+
 }
