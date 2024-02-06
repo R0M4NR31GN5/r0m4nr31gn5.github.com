@@ -78,7 +78,7 @@ nav {
 }
 
 .desc-img {
-    padding: 2rem 2rem;
+    padding: 2rem 1.5rem;
     max-width: 60%;
 }
 
@@ -123,6 +123,49 @@ nav {
 
 /* Dates */
 
-.dates {
-    
+.log {
+    display: inline-flex;
+    position: relative;
+    top: 4rem;
+}
+
+.practice {
+    display: flex;
+}
+
+.practice-img {
+    padding: 2rem 1.5rem 1rem 1.5rem; 
+}
+
+.practice-img {
+    display: flex;
+    flex-shrink: 1;
+}
+
+.practice-desc {
+    padding: 1rem 1.5rem 2rem 1.5rem;
+}
+
+.date-log {
+    display: inline-block;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid lightgray;
+    border-bottom: 5px solid lightgray;
+}
+
+.block-piece {
+    padding: 1.33rem;
+}
+
+.block-piece img {
+    width: 80%;
+    height: auto;
+}
+
+.one {
+    padding-top: 2rem;
 }
