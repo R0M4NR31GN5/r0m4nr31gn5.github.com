@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: var(--font);
+    font-size: 1rem;
+}
+
+:root {
+    --gray-background-color : lightgray;
+    --font :  Arial, Helvetica, sans-serif;
+    --font-color : rgb(120, 120 , 120);
+}
+
+/* nav */
+
+nav {
+    height: 4rem;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    align-items: center;
+    padding: 0 1.5rem;
+    font-size: 1rem;
+    font-family: var(--font);
+}
+
+.logo img {
+    height: 2.5rem;
+}
+
+#logo1 {
+    color: rgb(70, 70, 70);
+    font-weight: 550
+}
+
+#logo2 {
+    color: var(--font-color);
+}
+
+.navbar {
+    margin-left: auto;
+    padding-right: 1rem;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar ul li {
+    font-family: var(--font);
+    color: var(--font-color);
+    font-size: 0.9rem;
+    padding: 0.5rem;
+}
+
+/* first section */
+
+.learn {
+    display: flex;
+    position: relative;
+    top: 4rem;
+    background-color: var(--gray-background-color);
+}
+
+.banner {
+    width: 60%;
+    height: auto;
+    padding: 2rem 1.5rem;
+}
+
+.banner img {
+    width: 100%
+}
+
+#learn-text {
+    margin: auto 0;
+    width: 25%
+}
+
+#learn-text h1, h4, p {
+    padding: 1rem 0;
+}
+
+
+#learn-text h1 {
+    font-size: 2rem;
+    color: rgb(70, 70, 70);
+    font-weight: 700;
+}
+
+#learn-text h4 {
+    font-size: 1.1rem;
+    color: rgb(70, 70, 70);
+
+}
+
+#learn-text p {
+    text-align: center;
+    color: white;
+    background-color: rgb(70, 70, 70);
+    font-size: 0.9rem;
+    padding: 0.5rem 0;
+}
+
+/* second section */
+
+.info {
+    position: relative;
+    top: 4rem;
+    display: flex;
+    background-color: white;
+}
+
+.info-desc {
+    width: 60%;
+    padding: 2rem 1.5rem;
+    border-right: 3px lightgray solid
+}
+
+.info-desc img {
+    width: 100%;
+}
+
+.info-main {
+    padding: 1.66rem 0;
+}
+
+.info-main h2, h5, p {
+    padding: 0.75rem;
+}
+
+.info-main h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.info-main h5 {
+    font-size: 1rem;
+    font-weight: 100;
+    color: rgb(70, 70, 70)
+}
+
+.info-main p {
+    font-size: 0.8rem;
+    font-weight: 550;
+}
+
+.dates {
+    width: 40%;
+}
+
+.block {
+    display: flex;
+    border-bottom: 4px lightgray solid;
+}
+
+.block img {
+    width: 35%;
+    height: auto;
+    padding: 1rem;
+}
+
+.block .textblock {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textblock h3, h6, p {
+    padding: 0.5rem;
+}
+
+.textblock h3 {
+    font-size: 1.2rem;
+    font-weight: 550;
+}
+
+.textblock h6 {
+    font-size: 0.9rem;
+    font-weight: 100;
+    color: var(--font-color)
+}
+
+.textblock p {
+    color: rgb(80, 169, 232);
+    font-size: 0.9rem;
+}
+
+.gray {
+    background-color: lightgray;
+}
+
