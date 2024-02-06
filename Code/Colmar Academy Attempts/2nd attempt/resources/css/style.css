@@ -181,8 +181,8 @@ nav {
 }
 
 .block img {
-    width: 35%;
-    height: auto;
+    max-width: 35%;
+    height: 35%;
     padding: 1rem;
 }
 
@@ -216,4 +216,6 @@ nav {
 .gray {
     background-color: lightgray;
 }
+
+/* third section */
 
