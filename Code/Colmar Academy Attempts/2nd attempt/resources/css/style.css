@@ -23,9 +23,9 @@ p {
 }
 
 :root {
-    --gray-background-color : lightgray;
+    --gray-background-color : rgb(230, 230, 230);
     --font :  Arial, Helvetica, sans-serif;
-    --font-color : rgb(120, 120 , 120);
+    --font-color : rgb(80, 80, 80);
 }
 
 /* nav */
@@ -55,11 +55,13 @@ nav {
 
 #logo1 {
     color: rgb(70, 70, 70);
-    font-weight: 550
+    font-weight: 550;
+    padding: 0;
 }
 
 #logo2 {
     color: var(--font-color);
+    padding: 0;
 }
 
 .navbar {
@@ -140,7 +142,7 @@ nav {
 .info-desc {
     width: 60%;
     padding: 2rem 1.5rem;
-    border-right: 3px lightgray solid
+    border-right: 3px rgb(230, 230, 230) solid
 }
 
 .info-desc img {
@@ -153,6 +155,7 @@ nav {
 
 .info-main h2, h5, p {
     padding: 0.75rem;
+    color: rgb(70, 70, 70)
 }
 
 .info-main h2 {
@@ -163,7 +166,6 @@ nav {
 .info-main h5 {
     font-size: 1rem;
     font-weight: 100;
-    color: rgb(70, 70, 70)
 }
 
 .info-main p {
@@ -177,7 +179,7 @@ nav {
 
 .block {
     display: flex;
-    border-bottom: 4px lightgray solid;
+    border-bottom: 4px rgb(230, 230, 230) solid;
 }
 
 .block img {
@@ -195,6 +197,7 @@ nav {
 
 .textblock h3, h6, p {
     padding: 0.5rem;
+    color: rgb(70, 70, 70)
 }
 
 .textblock h3 {
@@ -214,8 +217,171 @@ nav {
 }
 
 .gray {
-    background-color: lightgray;
+    background-color: rgb(230, 230, 230);
 }
 
 /* third section */
 
+.classes {
+    position: relative;
+    top: 4rem;
+    width: 100%;
+    background-color: var(--gray-background-color);
+}
+
+.classes h1 {
+    text-align: center;
+    padding: 2rem;
+    color: rgb(70, 70, 70);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.grid {
+    padding: 0 6rem 2rem 6rem;
+    display: grid;
+    grid: repeat(2, 1fr) / repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.grid-block {
+    background-color: white;
+}
+
+.grid-block img {
+    height: auto;
+    width: 100%;
+}
+
+.grid-block h3 {
+    padding: 1rem 1rem 0.5rem 1rem;
+    font-size: 1.2rem;
+    font-weight: 550;
+    color: rgb(70, 70, 70)
+}
+
+.grid-block h6 {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    font-weight: 100;
+    color: rgb(70, 70, 70);
+}
+
+.grid-block p {
+    padding: 0.5rem 1rem 2rem 1rem;
+    color: rgb(70, 70, 70);
+}
+
+/* thesis */
+
+.thesis-title {
+    position: relative;
+    top: 4rem;
+}
+
+.thesis-title h1 {
+    text-align: center;
+    padding: 2rem;
+    color: rgb(70, 70, 70);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.thesis {
+    position: relative;
+    top: 4rem;
+    display: flex;
+}
+
+.thesis-vid {
+    width: 60%;
+    padding: 0 1.5rem 2rem 1.5rem;
+}
+
+.thesis-vid video {
+    width: 100%;
+    height: auto;
+}
+
+.thesis-desc {
+    padding-top: 1.5rem;
+}
+
+.thesis-desc h4 {
+    font-size: 1.2rem;
+    font-weight: 550;
+    color: rgb(70, 70, 70);
+}
+
+.thesis-desc p {
+    padding: 0;
+}
+
+.sidebar {
+    width: 40%;
+}
+
+.block2 {
+    display: flex;
+}
+
+.block2 img {
+    width: 35%;
+    height: auto;
+    padding: 1rem;
+}
+
+.block2 .sidetext {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sidetext h6, h3{
+    padding: 0.5rem 0;
+}
+
+.sidetext h3 {
+    font-size: 1.2rem;
+    font-weight: 550;
+    color: rgb(70, 70, 70);
+}
+
+.sidetext h6 {
+    font-size: 0.9rem;
+    font-weight: 100;
+    color: var(--font-color)
+}
+
+/* footer */
+
+footer {
+    position: relative;
+    display: flex;
+    width: 100%;
+    top: 4rem;
+    border-top: 0.2rem solid var(--gray-background-color)
+}
+
+footer p {
+    font-size: 0.75rem;
+    padding: 1rem 1.5rem;
+}
+
+#flist {
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 1.5rem;
+}
+
+#flist li {
+    font-size: 0.75rem;
+    padding: 0rem 0.5rem;
+    color: rgb(150, 150, 150);
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* the end */
