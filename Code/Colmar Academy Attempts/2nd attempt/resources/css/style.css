@@ -28,6 +28,20 @@ p {
     --font-color : rgb(80, 80, 80);
 }
 
+.mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 500px) {
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
+}
+
 /* nav */
 
 nav {
@@ -81,6 +95,23 @@ nav {
     padding: 0.5rem;
 }
 
+.navbar-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 500px) {
+    .logo,
+    .navbar {
+        display: none;
+    }
+
+    .navbar-mobile {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
 /* first section */
 
 .learn {
@@ -128,6 +159,22 @@ nav {
     background-color: rgb(70, 70, 70);
     font-size: 0.9rem;
     padding: 0.5rem 0;
+}
+
+@media only screen and (max-width: 500px) {
+    .learn {
+        flex-direction: column;
+    }
+
+    .banner {
+        padding: 0;
+        width: 100%;
+    }
+
+    #learn-text {
+        padding: 2rem 1rem;
+        width: auto
+    }
 }
 
 /* second section */
@@ -220,6 +267,35 @@ nav {
     background-color: rgb(230, 230, 230);
 }
 
+@media only screen and (max-width: 500px) {
+    .info-desc {
+        display: none;
+    }
+
+    .dates {
+        width: 100%
+    }
+
+    .gray {
+        background-color: white;
+    }
+
+    .block {
+        flex-direction: column;
+        border: none;
+    }
+
+    .block img {
+        max-width: 100%;
+    }
+
+    .textblock {
+        padding: 0rem 2rem 1rem 2rem;
+    }
+
+    
+}
+
 /* third section */
 
 .classes {
@@ -270,6 +346,39 @@ nav {
 .grid-block p {
     padding: 0.5rem 1rem 2rem 1rem;
     color: rgb(70, 70, 70);
+}
+
+@media only screen and (max-width: 500px) {
+    .classes {
+        background-color: white;
+        border-top: 0.125rem solid var(--gray-background-color);
+        border-bottom: 0.125rem solid var(--gray-background-color);
+    }
+
+    .classes h1 {
+        padding: 2rem 0 0 0;
+        font-size: 2.5rem;
+    }
+
+    .grid {
+        display: none;
+    }
+
+    .grid-mobile {
+        padding: 1rem;
+    }
+
+    .block-mobile {
+        background-color: var(--gray-background-color);
+        padding: 1rem;
+        margin: 0.5rem;
+    }
+
+    .block-mobile h4 {
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: rgb(70, 70, 70)
+    }
 }
 
 /* thesis */
@@ -354,6 +463,22 @@ nav {
     color: var(--font-color)
 }
 
+@media only screen and (max-width: 500px) {
+    .thesis {
+        display: none;
+    }
+
+    .vid-mobile {
+        width: 100%;
+        position: relative;
+        top: 4rem;
+    }
+
+    .vid {
+        width: 100%
+    }
+}
+
 /* footer */
 
 footer {
@@ -382,6 +507,16 @@ footer p {
     color: rgb(150, 150, 150);
     font-weight: 400;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 500px) {
+    footer {
+        padding: 2rem 1.5rem 0rem 1.5rem;
+    }
+
+    #flist {
+        display: none;
+    }
 }
 
 /* the end */
