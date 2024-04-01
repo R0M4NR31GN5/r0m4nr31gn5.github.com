@@ -58,4 +58,4 @@ function playGame() {
   console.log(determineWinner(userChoice, computerChoice));
 }
 
-playGame();
+playGame()
